@@ -26,7 +26,7 @@
 
 Ответ
 -----------------------------------
-Если имелось ввиду что 2 файла это settings.php и settings.local.php и в .gitignore добавляется *.local.php
+Если имелось ввиду что 2 файла это `settings.php` и `settings.local.php` и в `.gitignore` добавляется `*.local.php`
 
 Вопрос 4
 -----------------------------------
@@ -34,4 +34,4 @@
 
 Ответ
 -----------------------------------
-В exim можно выставить настройку отправки e-mail только после валидации verify = recipient/callout=10s,defer_ok API можно подключить, что-то типа datavalidation.com или dadata.
+В exim можно выставить настройку отправки e-mail только после валидации `verify = recipient/callout=10s,defer_ok` API можно подключить, что-то типа datavalidation.com или dadata.
