@@ -44,16 +44,16 @@
 -----------------------------------
 3 таблицы.
 Таблица 1. medicament
->id PRIMARY_KEY AUTO_INCREMENT
->name VARCHAR 200, NOT NULL
+>id PRIMARY_KEY AUTO_INCREMENT  
+>name VARCHAR 200, NOT NULL  
 >exp_date DATE
 
 Таблица 2. disease
->id PRIMARY_KEY AUTO_INCREMENT
+>id PRIMARY_KEY AUTO_INCREMENT  
 >name VARCHAR 200, NOT NULL
 
-Таблица 3. disease
->Связующая таблица для первых двух
->id_medicament
->id_disease
+Таблица 3. disease  
+Связующая таблица для первых двух
+>id_medicament  
+>id_disease  
 >Можно сделать составной PRIMARY_KEY
